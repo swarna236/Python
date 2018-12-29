@@ -6,3 +6,8 @@ my_array = numpy.array([input().split() for i in range(n)],int)
 print(numpy.mean(my_array,axis=1))
 print(numpy.var(my_array,axis=0))
 print("%.11f" %(numpy.std(my_array)))
+
+# numpy reshape - changing array to 3d
+
+my_array = numpy.array([input().split()],int)
+print(numpy.reshape(my_array,(3,3)))
